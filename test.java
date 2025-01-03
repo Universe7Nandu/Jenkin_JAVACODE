@@ -1,7 +1,12 @@
-public class test {
+public class Factorial {
     public static void main(String[] args) {
-        System.out.println("******************");
-        System.out.println("Hello, World!");
-        System.out.println("******************");
+        int num = 5;
+        int factorial = 1;
+        
+        for (int i = 1; i <= num; ++i) {
+            factorial *= i;
+        }
+        
+        System.out.println("Factorial of " + num + " is " + factorial);
     }
 }
