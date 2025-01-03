@@ -1,2 +1,2 @@
 **project Number 9**
-Q}Create a Jenkins pipeline to execute any Java Application. Keep the application & Jenkinsfile on Github.
+Set up a Jenkins job to pick a Java application from a GitHub repository
